@@ -1,0 +1,20 @@
+<% include ../partials/header %> 
+
+ <div class="container">
+     <div class="row text-center" style="display:flex; flex-wrap: wrap;">
+        <% cafes.forEach(function(cafe){ %>
+            <div class="col-md-3 col-sm-6">
+                <div class="thumbnail thumbnail-main">
+                   <img src="<%= cafe.image %>" class="img-responsive">
+                   <div class="caption">
+                       <h4><%= cafe.name %></h4>
+                       <a href="/cafes/<%= cafe._id %>" class="btn">More Info</a>
+                   </div>
+                   
+                </div>
+            </div>
+        <% }); %>
+    </div>
+</div>
+
+<% include ../partials/footer %>
