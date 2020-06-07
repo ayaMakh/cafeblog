@@ -1,6 +1,9 @@
 # Cafe Blog
 
 Cafe blog is a Node.js web application designed to share and write reviews about your favourite study cafes.
+Visit website: https://serene-coast-03674.herokuapp.com/
+login: guest
+password: guestpass
 
 ---
 
